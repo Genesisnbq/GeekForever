@@ -1,0 +1,4 @@
+1. 新建一个class 或者其他的快捷键是 ctrl alt insert
+2. 工作经验中, 最好使用|| &&
+3. git使用技巧 VSC -> Import into version Control -> create
+4. 输入数字的时候, 为了以防回车没有被消费,输入int的时候可以这样 int a = Integer.parseInt(in.nextLine());
