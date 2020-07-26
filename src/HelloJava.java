@@ -12,5 +12,6 @@ public class HelloJava {
         }
         System.out.println("NBQ test");
         System.out.println("NBQ test");
+        
     }
 }

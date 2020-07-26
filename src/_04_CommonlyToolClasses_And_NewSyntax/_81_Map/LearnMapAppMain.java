@@ -13,7 +13,7 @@ public class LearnMapAppMain {
         System.out.println(new Object());
         System.out.println("key999");
 
-        //TODO 注意: 不是每种Map的实现都允许key或者value为null, 使用时需要注意
+        //TODO 注意: 不是每种Map的实现都允许key或者value为 null, 使用时需要注意
         map.put(null, "value of null key");
         map.put("testnull", null);
 
@@ -21,7 +21,7 @@ public class LearnMapAppMain {
         System.out.println("null value support: " + map.get("testnull"));
 
         System.out.println("null key value: " + map.get(null));
-        System.out.println("null value suppport: " + map.get("testnull"));
+        System.out.println("null value support: " + map.get("testnull"));
 
         //TODO 删除key
         System.out.println("---------删除key------------");
